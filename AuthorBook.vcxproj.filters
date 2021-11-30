@@ -111,19 +111,10 @@
     <ClCompile Include="Testcase3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Preprocessor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Testcase4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Lambda.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Testcase6.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Testcase5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Testcase7.cpp">
