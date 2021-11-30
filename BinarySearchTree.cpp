@@ -9,7 +9,7 @@ class BST
     BST* left, * right;
 
 public:
-    // Default constructor.
+    // Default constructor. ojojoj
     BST();
 
     // Parameterized constructor.
