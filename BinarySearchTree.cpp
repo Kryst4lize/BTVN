@@ -15,7 +15,7 @@ public:
     // Parameterized constructor.
     BST(int);
 
-    // Insert function.
+    // Insert function node
     BST* Insert(BST*, int);
 
     // Inorder traversal.

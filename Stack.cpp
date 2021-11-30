@@ -58,8 +58,3 @@ string decodeString(string s){
 	}
 	return reverse(a);
 }
-
-int main() {
-	cout << decodeString("3[a3[b]1[ab]]");
-	return 0;
-}

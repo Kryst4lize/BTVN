@@ -2,42 +2,43 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-void sort(stack<int>& test,int &number) {
-	while (test.size() >= 2) {
+void sortnumber(stack<int>& test, int& number,int k) {
+	if (test.size()>1 && number<k) {
 		int c = test.top();
 		test.pop();
-		if (c >= test.top() && test.size() > 0) {
+		if (c >= test.top()) {
+			number = number + 1;
 			test.pop();
 			test.push(c);
-			number++;
-			sort(test, number);
+			sortnumber(test, number, k);
 		}
-		test.push(c);
+		if (c < test.top()) {
+			test.push(c);
+		}
 	}
 }
-vector<int> removeElements(vector<int> arr, int k) {
-	stack<int>final;
+vector<int> removeElements(vector<int> arr, int k){
 	int number = 0;
+	stack<int>test;
 	for (int i = 0; i < arr.size(); i++) {
-		if (final.size() < 2) {
-			final.push(arr[i]);
+		if (number >= k) {
+			test.push(arr[i]);
 		}
 		else {
-			if (number < k) {
-				sort(final, number);
-				final.push(arr[i]);
+			if (test.size() < 1) {
+				test.push(arr[i]);
 			}
 			else {
-				final.push(arr[i]);
+				test.push(arr[i]);
+				sortnumber(test, number,k);
 			}
 		}
-
 	}
-	vector<int>b;
-	while (final.empty()==false){
-		b.push_back(final.top());
-		final.pop();
+	vector<int> final;
+	while (test.empty() == false) {
+		final.push_back(test.top());
+		test.pop();
 	}
-	reverse(b.begin(), b.end());
-	return b;
+	reverse(final.begin(), final.end());
+	return final;
 }
