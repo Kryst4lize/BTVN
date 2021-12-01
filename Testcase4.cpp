@@ -5,7 +5,7 @@
 using namespace std;
 
 //check wether vector out of bound
-bool check(vector<vector<int>>map,int x ,int y) {
+bool checking(vector<vector<int>>map,int x ,int y) {
     if (x < map.size() && y < map[x].size()) {
         return true;
     }
@@ -13,37 +13,37 @@ bool check(vector<vector<int>>map,int x ,int y) {
 }
 void expand(vector<vector<int>>& map, vector<vector<bool>>& occupied, vector<vector<int>> &photomap, int i, int j, int N) {
     if (map[i][j] == N - 1) {
-        if (check(map, i, j + 1) && map[i][j + 1] == 0 && occupied[i][j + 1] == false) {
+        if (checking(map, i, j + 1) && map[i][j + 1] == 0 && occupied[i][j + 1] == false) {
             photomap[i][j + 1] = N-1;
             occupied[i][j + 1] = true;
         }
-        if (check(map, i, j - 1) && map[i][j - 1] == 0 && occupied[i][j - 1] == false) {
+        if (checking(map, i, j - 1) && map[i][j - 1] == 0 && occupied[i][j - 1] == false) {
             photomap[i][j - 1] = N-1;
             occupied[i][j - 1] = true;
         }
-        if (check(map, i + 1, j) && map[i + 1][j] == 0 && occupied[i + 1][j] == false) {
+        if (checking(map, i + 1, j) && map[i + 1][j] == 0 && occupied[i + 1][j] == false) {
             photomap[i + 1][j] = N-1;
             occupied[i + 1][j] = true;
         }
-        if (check(map, i - 1, j) && map[i - 1][j] == 0 && occupied[i - 1][j] == false) {
+        if (checking(map, i - 1, j) && map[i - 1][j] == 0 && occupied[i - 1][j] == false) {
             photomap[i - 1][j] = N-1;
             occupied[i - 1][j] = true;
         }
     }
     else {
-        if (check(map, i, j + 1) && map[i][j + 1] == map[i][j] + 1 && occupied[i][j + 1] == false) {
+        if (checking(map, i, j + 1) && map[i][j + 1] == map[i][j] + 1 && occupied[i][j + 1] == false) {
             photomap[i][j + 1] = map[i][j];
             occupied[i][j + 1] = true;
         }
-        if (check(map, i, j - 1) && map[i][j - 1] == map[i][j] + 1 && occupied[i][j - 1] == false) {
+        if (checking(map, i, j - 1) && map[i][j - 1] == map[i][j] + 1 && occupied[i][j - 1] == false) {
             photomap[i][j - 1] = map[i][j];
             occupied[i][j - 1] = true;
         }
-        if (check(map, i + 1, j) && map[i + 1][j] == map[i][j] + 1 && occupied[i + 1][j] == false) {
+        if (checking(map, i + 1, j) && map[i + 1][j] == map[i][j] + 1 && occupied[i + 1][j] == false) {
             photomap[i + 1][j] = map[i][j];
             occupied[i + 1][j] = true;
         }
-        if (check(map, i - 1, j) && map[i - 1][j] == map[i][j] + 1 && occupied[i - 1][j] == false) {
+        if (checking(map, i - 1, j) && map[i - 1][j] == map[i][j] + 1 && occupied[i - 1][j] == false) {
             photomap[i - 1][j] = map[i][j];
             occupied[i - 1][j] = true;
         }

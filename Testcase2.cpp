@@ -11,10 +11,10 @@ using namespace std::chrono;
 // a vector with random integers and then sort
 // them using sort function. We fill record
 // and print the time required by sort function
-int mainte2()
+int mainte22 ()
 {
   
-    vector<int> values(10000);
+    vector<int> values(9999);
   
     // Generate Random values
     auto f = []() -> int { return rand() % 10000; };
