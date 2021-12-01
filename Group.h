@@ -1,5 +1,5 @@
-#include"Family.cpp"
-#include"People.cpp"
+#include"Family.h"
+#include"People.h"
 class Group  {
 private:
 	string nameGr;

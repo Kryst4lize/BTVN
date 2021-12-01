@@ -1,8 +1,4 @@
-#define _CRTDBG_MAP_ALLOC
-#include <stdlib.h>
-#include <crtdbg.h>
-#include <stdlib.h>
-#include <crtdbg.h>
+
 #include"Adult.h"
 #include"Person.h"
 #include"Book.h"
@@ -34,10 +30,16 @@ int maint()
 		p[i]->display();
 	}
 	Person::sortPersonAge(p);
-
+	
 	vector<int> str(Person::getListAge(p));
 
 	vector<Book> res(Person::getMaxBookBorrowed(p, all));
-	_CrtDumpMemoryLeaks();
+
+	p.pop_back();
+	p.pop_back();
+	p.pop_back();
+	p.pop_back();
+	delete[] x;
+
 	return 0;
 }

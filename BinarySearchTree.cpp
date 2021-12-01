@@ -9,13 +9,13 @@ class BST
     BST* left, * right;
 
 public:
-    // Default constructor.
+    // Default constructor. ojojoj
     BST();
 
     // Parameterized constructor.
     BST(int);
 
-    // Insert function.
+    // Insert function node
     BST* Insert(BST*, int);
 
     // Inorder traversal.

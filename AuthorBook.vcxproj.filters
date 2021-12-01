@@ -13,51 +13,58 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\Excercise4">
-      <UniqueIdentifier>{5f20cd91-1d8b-4c13-8f4f-33ad23daf447}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Point">
       <UniqueIdentifier>{eacf3d11-eb14-4161-8ca5-9e61790ea128}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Group">
       <UniqueIdentifier>{22856bcc-a1d7-49a6-b639-457192854ecc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Queue">
+      <UniqueIdentifier>{63df050c-cb68-4fe0-af8b-45e41c44e6eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MapContainer">
+      <UniqueIdentifier>{96475d33-a088-43b3-8451-14b48bf29b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bitset">
+      <UniqueIdentifier>{238c4f1c-9162-45e0-af01-71e848d80a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OOP">
+      <UniqueIdentifier>{5f20cd91-1d8b-4c13-8f4f-33ad23daf447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File handling">
+      <UniqueIdentifier>{b916fda6-6394-4454-acc3-57e105b934b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exception">
+      <UniqueIdentifier>{fd31d33d-11b5-4920-abc8-bbb2c91b825a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Fraction.cpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="People.cpp">
+    <ClCompile Include="People.h">
       <Filter>Header Files\Group</Filter>
     </ClCompile>
-    <ClCompile Include="Family.cpp">
+    <ClCompile Include="Family.h">
       <Filter>Header Files\Group</Filter>
     </ClCompile>
-    <ClCompile Include="Group.cpp">
+    <ClCompile Include="Group.h">
       <Filter>Header Files\Group</Filter>
     </ClCompile>
     <ClCompile Include="Person.h">
-      <Filter>Header Files\Excercise4</Filter>
+      <Filter>Header Files\OOP</Filter>
     </ClCompile>
     <ClCompile Include="Book.h">
-      <Filter>Header Files\Excercise4</Filter>
+      <Filter>Header Files\OOP</Filter>
     </ClCompile>
     <ClCompile Include="Children.h">
-      <Filter>Header Files\Excercise4</Filter>
+      <Filter>Header Files\OOP</Filter>
     </ClCompile>
     <ClCompile Include="Adult.h">
-      <Filter>Header Files\Excercise4</Filter>
+      <Filter>Header Files\OOP</Filter>
     </ClCompile>
     <ClCompile Include="Testcase.cpp">
-      <Filter>Header Files\Excercise4</Filter>
+      <Filter>Header Files\OOP</Filter>
     </ClCompile>
     <ClCompile Include="BinarySearchTree.cpp">
       <Filter>Header Files\Point</Filter>
-    </ClCompile>
-    <ClCompile Include="Stringstream.cpp">
-      <Filter>Header Files\Excercise4</Filter>
     </ClCompile>
     <ClCompile Include="Stack.cpp">
       <Filter>Header Files\Point</Filter>
@@ -65,5 +72,62 @@
     <ClCompile Include="removelement.cpp">
       <Filter>Header Files\Point</Filter>
     </ClCompile>
+    <ClCompile Include="firstNegative.cpp">
+      <Filter>Header Files\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="rotOrange.cpp">
+      <Filter>Header Files\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Map1.cpp">
+      <Filter>Source Files\MapContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="Map2.cpp">
+      <Filter>Source Files\MapContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="Map3.cpp">
+      <Filter>Source Files\MapContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitset1.cpp">
+      <Filter>Source Files\Bitset</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitset2.cpp">
+      <Filter>Source Files\Bitset</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHandling%28C++ standard%29.cpp">
+      <Filter>Source Files\File handling</Filter>
+    </ClCompile>
+    <ClCompile Include="File2.cpp">
+      <Filter>Source Files\File handling</Filter>
+    </ClCompile>
+    <ClCompile Include="File3.cpp">
+      <Filter>Source Files\File handling</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception1.cpp">
+      <Filter>Source Files\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Testcase2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Testcase3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Testcase4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lambda.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Testcase7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Testcase8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Testcase1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>
