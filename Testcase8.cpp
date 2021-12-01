@@ -35,7 +35,7 @@ bool exist(vector<vector<char>>& board, string word) {
 
     return false;
 }
-int main() {
+int mainte8() {
     string s;
     getline(cin, s);
     for (int i = 0; i < s.length(); i++) {
@@ -60,4 +60,5 @@ int main() {
         }
         cout << endl;
     }
+    return 0;
 }

@@ -162,6 +162,7 @@
     <ClCompile Include="rotOrange.cpp" />
     <ClCompile Include="Stack.cpp" />
     <ClCompile Include="Testcase.cpp" />
+    <ClCompile Include="Testcase1.cpp" />
     <ClCompile Include="Testcase2.cpp" />
     <ClCompile Include="Testcase3.cpp" />
     <ClCompile Include="Testcase4.cpp" />
