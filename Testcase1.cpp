@@ -5,7 +5,7 @@
 #include<cmath>
 #include<algorithm>
 using namespace std;
-
+/*
 int sumRow(int n, int k)
 {
     int row = 0, col = 0;
@@ -72,7 +72,7 @@ int sumRow(int n, int k)
 }
 
 // Driver Code
-int main()
+int mainte1()
 {
 
     // Get the size of size
@@ -83,3 +83,4 @@ int main()
     sumRow(size,k);
     return 0;
 }
+*/

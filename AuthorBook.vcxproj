@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\Downloads\maxRevenue.cpp" />
     <ClCompile Include="Adult.h" />
     <ClCompile Include="BinarySearchTree.cpp" />
     <ClCompile Include="Bitset1.cpp" />
@@ -156,6 +157,7 @@
     <ClCompile Include="Map1.cpp" />
     <ClCompile Include="Map2.cpp" />
     <ClCompile Include="Map3.cpp" />
+    <ClCompile Include="maxRevenue.cpp" />
     <ClCompile Include="People.h" />
     <ClCompile Include="Person.h" />
     <ClCompile Include="removelement.cpp" />
