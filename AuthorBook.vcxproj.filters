@@ -123,11 +123,7 @@
     <ClCompile Include="Testcase1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Testcase9.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lambda.cpp">
-      <Filter>Source Files\MapContainer</Filter>
+
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
