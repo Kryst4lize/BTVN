@@ -4,6 +4,7 @@
 #define FOR(x,a,b) int count =1;for (x=a;x<=b;x++) {count*=x;}
 #define PR cout<<count<<endl;
 using namespace std;
+/*
 int mainte3()
 {
     // Initializing 1st tuple
@@ -25,4 +26,4 @@ int mainte3()
     cout << get<4>(tup3) << " " << get<5>(tup3) << endl;
 
     return 0;
-}
+}*/
