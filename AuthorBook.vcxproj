@@ -139,7 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Downloads\maxRevenue.cpp" />
     <ClCompile Include="Adult.h" />
     <ClCompile Include="BinarySearchTree.cpp" />
     <ClCompile Include="Bitset1.cpp" />
