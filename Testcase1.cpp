@@ -5,6 +5,18 @@
 #include<cmath>
 #include<algorithm>
 using namespace std;
+
+int main() {
+	int n = 0, x = 0, a = 0, b = 0;
+	cin >> a >> b >> n;
+	for (int i = 0; i < n; i++) {
+		x += (a * b);
+		a++;
+		b++;
+	}
+	cout << x;
+	return 0;
+
 /*
 int sumRow(int n, int k)
 {
@@ -82,5 +94,6 @@ int mainte1()
     // Print the Spiral Pattern
     sumRow(size,k);
     return 0;
+
 }
 */
