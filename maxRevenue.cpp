@@ -55,7 +55,7 @@ vector<int> maxSum(std::vector<int> arr)
     sort(data.begin(), data.end());
     return data;
 }
-int main() {
+int mainre() {
     vector<int>arr = { 12, 24, 35, 52 };
     arr = maxSum(arr);
     for (auto a : arr) {

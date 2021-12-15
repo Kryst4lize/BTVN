@@ -28,7 +28,6 @@ string searchword(vector<vector<char>>map, string sample) {
 	for (int i = 0; i < map.size(); i++) {
 		mark[i].resize(map[i].size(), 0);
 	}
-	
 	for (int i = 0; i < map.size(); i++) {
 		for (int j = 0; j < map[i].size(); j++) {
 			expand(map, mark, sample, 0, i, j, check);

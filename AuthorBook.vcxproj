@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="759ProblemA.cpp" />
     <ClCompile Include="Adult.h" />
     <ClCompile Include="BinarySearchTree.cpp" />
     <ClCompile Include="Bitset1.cpp" />
@@ -151,6 +152,7 @@
     <ClCompile Include="File3.cpp" />
     <ClCompile Include="FileHandling%28C++ standard%29.cpp" />
     <ClCompile Include="firstNegative.cpp" />
+    <ClCompile Include="Greedy1.cpp" />
     <ClCompile Include="Group.h" />
     <ClCompile Include="Lambda.cpp" />
     <ClCompile Include="Map1.cpp" />
@@ -164,6 +166,7 @@
     <ClCompile Include="Stack.cpp" />
     <ClCompile Include="Testcase.cpp" />
     <ClCompile Include="Testcase1.cpp" />
+    <ClCompile Include="Testcase10.cpp" />
     <ClCompile Include="Testcase2.cpp" />
     <ClCompile Include="Testcase3.cpp" />
     <ClCompile Include="Testcase4.cpp" />
