@@ -20,7 +20,7 @@ void mincoin(vector<int>& coin, int number, int price, int& abs, int index) {
 		}
 	}
 }
-int main() {
+int maingr1() {
 	int abs = INT_MAX;
 	int n = 0;
 	int s=0;
