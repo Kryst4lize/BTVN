@@ -23,7 +23,7 @@ void Nhapmang(int a[], int& n) {
 			return false;
 		}
 	}
-	int main()
+	int mainte8()
 	{
 		int a[MAX], n = 10;
 		Nhapmang(a, n);

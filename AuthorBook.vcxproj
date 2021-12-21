@@ -140,6 +140,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="759ProblemA.cpp" />
+    <ClCompile Include="762ProblemA.cpp" />
+    <ClCompile Include="762ProblemB.cpp" />
     <ClCompile Include="Adult.h" />
     <ClCompile Include="BinarySearchTree.cpp" />
     <ClCompile Include="Bitset1.cpp" />

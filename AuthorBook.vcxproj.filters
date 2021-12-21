@@ -150,6 +150,12 @@
     <ClCompile Include="Testcase10.cpp">
       <Filter>Source Files\Custom</Filter>
     </ClCompile>
+    <ClCompile Include="762ProblemB.cpp">
+      <Filter>Header Files\Codeforce</Filter>
+    </ClCompile>
+    <ClCompile Include="762ProblemA.cpp">
+      <Filter>Header Files\Codeforce</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd">
