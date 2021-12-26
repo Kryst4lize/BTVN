@@ -59,8 +59,8 @@ outputCopy
 using namespace std;
 int main762B() {
 	ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
-	long long a[10001]; //minus one
-	long long b[10001];//result one
+	long long a[101]; //minus one
+	long long b[101];//result one
 	int n;
 	cin >> n;
 	for (int i = 0; i < n; i++) {

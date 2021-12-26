@@ -50,7 +50,7 @@ YES*/
 using namespace std;
 
 
-int main() {
+int main762A() {
 	ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 	int a;
 	cin >> a;

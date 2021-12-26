@@ -147,6 +147,7 @@
     <ClCompile Include="Bitset1.cpp" />
     <ClCompile Include="Bitset2.cpp" />
     <ClCompile Include="Book.h" />
+    <ClCompile Include="CF18ProblemC.cpp" />
     <ClCompile Include="Children.h" />
     <ClCompile Include="Exception1.cpp" />
     <ClCompile Include="Family.h" />
