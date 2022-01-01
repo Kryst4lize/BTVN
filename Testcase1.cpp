@@ -1,41 +1,64 @@
 #include<vector>
-#include<iostream>
 #include<string>
 #include<iomanip>
 #include<cmath>
 #include<iostream>
 #include<algorithm>
+#include<climits>
+#include<sstream>
+#include<bitset>
+#include<fstream>
+#include<string>
+#include<algorithm>
 using namespace std;
 
 int mainte1() {
-	//input
-	int g = 0;
-	int max1=0; int maxinmin=0;
-	int indexmax=0, indexmaxinmin=0;
-	ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
-	cin >> g;
-	for (int i = 0; i < g; i++) {
-		int n, a, b;
-		cin >> n >> a >> b;
-		vector<int>map1(b);
-		vector<int>check(b);
-		for (int j = 0; j < b; j++) {
-			map1[j] = j + 1;
-		}
-		//solve
-		//get index
-		int c = max(a, b);
-		if (c < 2) {
-			if (n < 3) {
-				cout << "-1" << endl; continue;
+	int a;
+	cin >> a;
+	for (int i = 0; i < a; i++) {
+		int b;
+		string a;
+		int check = 0;
+		cin >> b >> a;
+		if (b == 1) { cout << a + a; }
+		else {
+			string temps;
+			for (int i = 0; i < a.length(); i++) {
+				if (check == 1) { check = 0; break; }
+				string fucker;
+				for (int j = 0; j <= i; j++) {
+					fucker += a[j];
+				}
+				for (int j = i; j >= 0; j--) {
+					fucker += a[j];
+				}
+				if (temps.size() == 0) {
+					temps = fucker;
+				}
+				else {
+					for (int i = 0; i < temps.size(); i++) {
+						if (fucker.size() == 2 * a.length()) { cout << fucker; check = 1; break; }
+						if (fucker[i] < temps[i]) {
+							temps = fucker;
+							break;
+						}
+						else if (fucker[i] > temps[i]) {
+							cout << temps << endl;
+							check = 1;
+							break;
+						}
+						else if (fucker[i] == temps[i]) {
+							if (i == temps.size() - 1) {
+								cout << temps << endl;
+								check = 1;
+								break;
+							}
+
+						}
+					}
+				}
 			}
 		}
-		if (c >= 2) {
-			if (3 + 2 * (c - 1) > n) { cout << "-1" << endl; continue; }
-		}
-		
-
-
 	}
 	return 0;
 }

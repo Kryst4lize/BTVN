@@ -67,6 +67,7 @@ Select the 2-nd candle: 110101100→011010011
 Select the 8-th candle: 011010011→100101110
 Select the 7-th candle: 100101110→011010101
 */
+
 #include<vector>
 #include<iostream>
 #include<string>
@@ -77,25 +78,109 @@ Select the 7-th candle: 100101110→011010101
 #include<climits>
 #include<sstream>
 #include<bitset>
+#include<fstream>
+//closest pair geeksforgeek
 using namespace std;
-int main() {
-	ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
-	int n;
-	cin >> n;
-	for (int i = 0; i < n; i++) {
-		long long sum = 0;
-		int a;
-		cin >> a;
-		for (int j = 0; j < a; j++) {
-			int answer;
-			cin >> answer;
-			sum += answer;
+ifstream inp("D:/input.txt");
+ofstream out("D:/output.txt",ios::out);
+// the location of point in OXY 
+struct point {
+	int x, y;
+};
+// get the distance between two point
+long long distance(point a, point b) {
+	return pow(abs(b.x) - abs(a.x), 2) + pow(abs(a.y) - abs(b.y), 2);
+}
+// find the min distance in an area
+long long mindistanceX(vector<point>& check, int a, int b) {
+	long long g = LLONG_MAX;
+	for (int i = a; i < b; i++) {
+		//check wether the min distance exceed the radius
+		for (int j = i + 1; j < b && pow(check[j].x - check[i].x, 2) < g; j++) { 
+			if (distance(check[i], check[j]) < g) {
+				g = distance(check[i], check[j]); //middle on the right side
+			}
 		}
-		if (sum % a == 0) {
-			cout << 0 << endl;
-		}
-		else { cout << 1 << endl; }
 	}
+	return g;
+}
+// This is an O(n) method, not O(n^2) because
+// the inner loop can only run at most 6 times (was proven)
+double mindistanceY(vector<point>& strip,double min) {
+	for (int i = 0; i < strip.size(); i++) {
+		for (int j = i + 1; j < strip.size() && double(strip[j].y) - double(strip[i].y) < min; j++) {
+			if (sqrt(distance(strip[i], strip[j])) < min) {
+				min = sqrt(distance(strip[i], strip[j]));
+			}
+		}
+	}
+	return min;
+}
+double bruteforceX(vector<point>&check) {
+	double R = FLT_MAX;
+	for (int i=0;i<check.size();i++){
+		if (i == check.size() - 1) {
+			if (sqrt(distance(check[i], check[0])) < R) {
+				R = sqrt(distance(check[i], check[0]));
+			}
+		}
+		else {
+			if (sqrt(distance(check[i], check[i + 1])) < R) {
+				R = sqrt(distance(check[i], check[i + 1]));
+			}
+		}
+	}
+	return R;
+}
 
+int maincf18() {
+	double a;
+	scanf_s("%lf", &a);
+	printf("the first one is %lf", a); 
+	int n = 2;
+	inp >> n;
+	while (n != 0) {
+		vector<point>check(n);
+		for (int i = 0; i < n; i++) {
+			inp >> check[i].x;
+			inp >> check[i].y;
+		}
+		// if element less than 3 ,using bruteforce more quickly
+		if (n<=3 && n>=2){
+			double d = bruteforceX(check);
+			out << setprecision(9) << fixed << d << endl;
+		}
+		else if (n == 1) {
+			out << -1 << endl;
+		}
+		else {
+			//sort by x cordinate to divide into two part
+			//Time complexity : O(nlog(n))
+			sort(check.begin(), check.end(), [](point a, point b) {return a.x < b.x; });
+			int mid = n / 2;
+			//using bruteforce (recursive) with condition to find min distance in two side
+			//Time complexity : approximately nearly linear 0(n) 
+			long long minl = mindistanceX(check, 0, mid);
+			long long minr = mindistanceX(check, mid, n);
+			//get the min distance between two side
+			double min2side = sqrt(min(minl, minr));
+			//find every element in a strip length 2*min2side
+			vector<point>strip;
+			// reserve at least n element memory is stack memory in case you need
+			strip.reserve(n);
+			//get an array of element in the area of strip
+			for (int i = 0; i < n; i++) {
+				if (abs(check[i].x - check[mid].x) < min2side) {
+					strip.push_back(check[i]);
+				}
+			}
+			//sort array in y cordinate
+			sort(strip.begin(), strip.end(), [](point a, point b) {return a.y < b.y; });
+			double d = mindistanceY(strip, min2side);
+			//the precision 10^-9
+			out << setprecision(9) << fixed << d << endl;
+		}
+		inp >> n;
+	}
 	return 0;
 }

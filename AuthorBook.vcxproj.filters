@@ -159,6 +159,9 @@
     <ClCompile Include="CF18ProblemC.cpp">
       <Filter>Header Files\Codeforce</Filter>
     </ClCompile>
+    <ClCompile Include="InputC-C++.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd">
