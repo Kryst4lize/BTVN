@@ -1,85 +1,64 @@
 #include<vector>
-#include<iostream>
 #include<string>
 #include<iomanip>
 #include<cmath>
+#include<iostream>
+#include<algorithm>
+#include<climits>
+#include<sstream>
+#include<bitset>
+#include<fstream>
+#include<string>
 #include<algorithm>
 using namespace std;
 
-int sumRow(int n, int k)
-{
-    int row = 0, col = 0;
+int mainte1() {
+	int a;
+	cin >> a;
+	for (int i = 0; i < a; i++) {
+		int b;
+		string a;
+		int check = 0;
+		cin >> b >> a;
+		if (b == 1) { cout << a + a; }
+		else {
+			string temps;
+			for (int i = 0; i < a.length(); i++) {
+				if (check == 1) { check = 0; break; }
+				string fucker;
+				for (int j = 0; j <= i; j++) {
+					fucker += a[j];
+				}
+				for (int j = i; j >= 0; j--) {
+					fucker += a[j];
+				}
+				if (temps.size() == 0) {
+					temps = fucker;
+				}
+				else {
+					for (int i = 0; i < temps.size(); i++) {
+						if (fucker.size() == 2 * a.length()) { cout << fucker; check = 1; break; }
+						if (fucker[i] < temps[i]) {
+							temps = fucker;
+							break;
+						}
+						else if (fucker[i] > temps[i]) {
+							cout << temps << endl;
+							check = 1;
+							break;
+						}
+						else if (fucker[i] == temps[i]) {
+							if (i == temps.size() - 1) {
+								cout << temps << endl;
+								check = 1;
+								break;
+							}
 
-    int boundary = n - 1;
-    int sizeLeft = n - 1;
-    int flag = 1;
-    char move = 'r';
-    int matrix[n][n] = { 0 };
-
-    for (int i = 1; i < n * n + 1; i++)
-    {
-        matrix[row][col] = i;
-
-        switch (move)
-        {
-        case 'r':
-            col += 1;
-            break;
-        case 'l':
-            col -= 1;
-            break;
-        case 'u':
-            row -= 1;
-            break;
-        case 'd':
-            row += 1;
-            break;
-        }
-        if (i == boundary)
-        {
-            boundary += sizeLeft;
-            if (flag != 2)
-            {
-                flag = 2;
-            }
-            else
-            {
-                flag = 1;
-                sizeLeft -= 1;
-            }
-            switch (move)
-            {
-            case 'r':
-                move = 'd';
-                break;
-            case 'd':
-                move = 'l';
-                break;
-            case 'l':
-                move = 'u';
-                break;
-            case 'u':
-                move = 'r';
-                break;
-            }
-        }
-    }
-    int sum=0;
-    for (int i = 0; i < n; i++) {
-        sum += matrix[k - 1][i];
-    }
-    return sum;
-}
-
-// Driver Code
-int main()
-{
-
-    // Get the size of size
-    int size = 5;
-    int k = 4;
-    cin >> size >> k;
-    // Print the Spiral Pattern
-    sumRow(size,k);
-    return 0;
+						}
+					}
+				}
+			}
+		}
+	}
+	return 0;
 }

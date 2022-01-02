@@ -139,11 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="759ProblemA.cpp" />
+    <ClCompile Include="762ProblemA.cpp" />
+    <ClCompile Include="762ProblemB.cpp" />
     <ClCompile Include="Adult.h" />
     <ClCompile Include="BinarySearchTree.cpp" />
     <ClCompile Include="Bitset1.cpp" />
     <ClCompile Include="Bitset2.cpp" />
     <ClCompile Include="Book.h" />
+    <ClCompile Include="CF18ProblemC.cpp" />
     <ClCompile Include="Children.h" />
     <ClCompile Include="Exception1.cpp" />
     <ClCompile Include="Family.h" />
@@ -151,11 +155,14 @@
     <ClCompile Include="File3.cpp" />
     <ClCompile Include="FileHandling%28C++ standard%29.cpp" />
     <ClCompile Include="firstNegative.cpp" />
+    <ClCompile Include="Greedy1.cpp" />
     <ClCompile Include="Group.h" />
+    <ClCompile Include="Struct.cpp" />
     <ClCompile Include="Lambda.cpp" />
     <ClCompile Include="Map1.cpp" />
     <ClCompile Include="Map2.cpp" />
     <ClCompile Include="Map3.cpp" />
+    <ClCompile Include="maxRevenue.cpp" />
     <ClCompile Include="People.h" />
     <ClCompile Include="Person.h" />
     <ClCompile Include="removelement.cpp" />
@@ -163,11 +170,13 @@
     <ClCompile Include="Stack.cpp" />
     <ClCompile Include="Testcase.cpp" />
     <ClCompile Include="Testcase1.cpp" />
+    <ClCompile Include="Testcase10.cpp" />
     <ClCompile Include="Testcase2.cpp" />
     <ClCompile Include="Testcase3.cpp" />
     <ClCompile Include="Testcase4.cpp" />
     <ClCompile Include="Testcase7.cpp" />
     <ClCompile Include="Testcase8.cpp" />
+    <ClCompile Include="Testcase9.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

@@ -37,6 +37,15 @@
     <Filter Include="Source Files\Exception">
       <UniqueIdentifier>{fd31d33d-11b5-4920-abc8-bbb2c91b825a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Codeforce">
+      <UniqueIdentifier>{f772ed3e-f059-4f52-af35-e7682e4c6ce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Greedy Algorithm">
+      <UniqueIdentifier>{83f0d4d9-addd-4ddd-9f85-a51a4fae2021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Custom">
+      <UniqueIdentifier>{823b0707-9b09-445c-a877-0cbb787a36b8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="People.h">
@@ -105,29 +114,58 @@
     <ClCompile Include="Exception1.cpp">
       <Filter>Source Files\Exception</Filter>
     </ClCompile>
-    <ClCompile Include="Testcase2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Testcase3.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Testcase4.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Lambda.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Testcase7.cpp">
+    <ClCompile Include="maxRevenue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Testcase8.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="759ProblemA.cpp">
+      <Filter>Header Files\Codeforce</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy1.cpp">
+      <Filter>Source Files\Greedy Algorithm</Filter>
     </ClCompile>
     <ClCompile Include="Testcase1.cpp">
+      <Filter>Source Files\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="Testcase2.cpp">
+      <Filter>Source Files\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="Testcase3.cpp">
+      <Filter>Source Files\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="Testcase7.cpp">
+      <Filter>Source Files\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="Testcase8.cpp">
+      <Filter>Source Files\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="Testcase9.cpp">
+      <Filter>Source Files\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="Testcase4.cpp">
+      <Filter>Source Files\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="Testcase10.cpp">
+      <Filter>Source Files\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="762ProblemB.cpp">
+      <Filter>Header Files\Codeforce</Filter>
+    </ClCompile>
+    <ClCompile Include="762ProblemA.cpp">
+      <Filter>Header Files\Codeforce</Filter>
+    </ClCompile>
+    <ClCompile Include="CF18ProblemC.cpp">
+      <Filter>Header Files\Codeforce</Filter>
+    </ClCompile>
+    <ClCompile Include="Struct.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram.cd">
+      <Filter>Header Files\OOP</Filter>
+    </None>
   </ItemGroup>
 </Project>
