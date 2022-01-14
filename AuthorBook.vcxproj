@@ -155,6 +155,7 @@
     <ClCompile Include="File3.cpp" />
     <ClCompile Include="FileHandling%28C++ standard%29.cpp" />
     <ClCompile Include="firstNegative.cpp" />
+    <ClCompile Include="Graph.cpp" />
     <ClCompile Include="Greedy1.cpp" />
     <ClCompile Include="Group.h" />
     <ClCompile Include="InputC-C++.cpp" />
@@ -171,9 +172,11 @@
     <ClCompile Include="Testcase.cpp" />
     <ClCompile Include="Testcase1.cpp" />
     <ClCompile Include="Testcase10.cpp" />
+    <ClCompile Include="Testcase11.cpp" />
     <ClCompile Include="Testcase2.cpp" />
     <ClCompile Include="Testcase3.cpp" />
     <ClCompile Include="Testcase4.cpp" />
+    <ClCompile Include="Testcase5.cpp" />
     <ClCompile Include="Testcase7.cpp" />
     <ClCompile Include="Testcase8.cpp" />
     <ClCompile Include="Testcase9.cpp" />

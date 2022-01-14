@@ -16,9 +16,6 @@
     <Filter Include="Header Files\Point">
       <UniqueIdentifier>{eacf3d11-eb14-4161-8ca5-9e61790ea128}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Group">
-      <UniqueIdentifier>{22856bcc-a1d7-49a6-b639-457192854ecc}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Queue">
       <UniqueIdentifier>{63df050c-cb68-4fe0-af8b-45e41c44e6eb}</UniqueIdentifier>
     </Filter>
@@ -46,16 +43,19 @@
     <Filter Include="Source Files\Custom">
       <UniqueIdentifier>{823b0707-9b09-445c-a877-0cbb787a36b8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\OOP2">
+      <UniqueIdentifier>{22856bcc-a1d7-49a6-b639-457192854ecc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="People.h">
-      <Filter>Header Files\Group</Filter>
+      <Filter>Header Files\OOP2</Filter>
     </ClCompile>
     <ClCompile Include="Family.h">
-      <Filter>Header Files\Group</Filter>
+      <Filter>Header Files\OOP2</Filter>
     </ClCompile>
     <ClCompile Include="Group.h">
-      <Filter>Header Files\Group</Filter>
+      <Filter>Header Files\OOP2</Filter>
     </ClCompile>
     <ClCompile Include="Person.h">
       <Filter>Header Files\OOP</Filter>
@@ -161,6 +161,15 @@
     </ClCompile>
     <ClCompile Include="InputC-C++.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Testcase5.cpp">
+      <Filter>Source Files\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>Source Files\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="Testcase11.cpp">
+      <Filter>Source Files\Custom</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

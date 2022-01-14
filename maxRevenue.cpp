@@ -2,6 +2,7 @@
 #include<vector>
 #include<algorithm>
 using namespace std;
+// codelearn.io
 /*Cho một mảng các số nguyên arr, bạn hãy chọn ra một tập gồm các phần tử trong arr sao cho giữa các phần tử trong tập này không có chữ số trùng nhau và tổng của các phần tử là lớn nhất.Sau đó trả về tổng của tập tìm được.
 Ví dụ nếu arr = [22, 34, 13] thì bạn có thể chọn ra các tập con là{ 22 }, { 34 }, { 13 }, { 22, 13 }, { 22, 34 }. Lưu ý rằng{ 34, 13 } không phải là tập hợp lệ do 34 và 13 có cùng chữ số 3.
 
