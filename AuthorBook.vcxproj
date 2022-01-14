@@ -158,7 +158,7 @@
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="Greedy1.cpp" />
     <ClCompile Include="Group.h" />
-    <ClCompile Include="InputC-C++.cpp" />
+    <ClCompile Include="Struct.cpp" />
     <ClCompile Include="Lambda.cpp" />
     <ClCompile Include="Map1.cpp" />
     <ClCompile Include="Map2.cpp" />

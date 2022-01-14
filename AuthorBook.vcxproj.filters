@@ -159,7 +159,7 @@
     <ClCompile Include="CF18ProblemC.cpp">
       <Filter>Header Files\Codeforce</Filter>
     </ClCompile>
-    <ClCompile Include="InputC-C++.cpp">
+    <ClCompile Include="Struct.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Testcase5.cpp">
