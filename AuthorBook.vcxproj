@@ -177,6 +177,7 @@
     <ClCompile Include="Testcase3.cpp" />
     <ClCompile Include="Testcase4.cpp" />
     <ClCompile Include="Testcase5.cpp" />
+    <ClCompile Include="Testcase6.cpp" />
     <ClCompile Include="Testcase7.cpp" />
     <ClCompile Include="Testcase8.cpp" />
     <ClCompile Include="Testcase9.cpp" />

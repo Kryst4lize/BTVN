@@ -1,4 +1,5 @@
 //Build cstring type function by your own
+/*
 #include <iostream>
 #include <string.h>
 #include<string>
@@ -55,8 +56,8 @@ int main()
 		cout << s << endl;
 	}
 	return 0;
-}*/
-int main() {
+}
+int mainte11() {
 	string s;
 	getline(cin, s);
 	int BaseScore = 40, Bonus_Excess = 3, Bonus_Upper = 4, Bonus_Number = 5, Bonus_Symbols = 5;
@@ -295,4 +296,4 @@ int myStrcmp1(char s1[], char s2[]) {
 		return -1;
 	}
 	return 0;
-}
+}*/
