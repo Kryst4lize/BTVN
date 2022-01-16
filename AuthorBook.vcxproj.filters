@@ -168,12 +168,6 @@
     <ClCompile Include="Graph.cpp">
       <Filter>Source Files\Custom</Filter>
     </ClCompile>
-    <ClCompile Include="Testcase11.cpp">
-      <Filter>Source Files\Custom</Filter>
-    </ClCompile>
-    <ClCompile Include="Testcase6.cpp">
-      <Filter>Source Files\Custom</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd">
