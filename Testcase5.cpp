@@ -1,41 +1,39 @@
-#include<vector>
-#include<iostream>
-#include<string>
-#include<iomanip>
-#include<cmath>
-#include<iostream>
-#include<algorithm>
-#include<climits>
-#include<sstream>
-#include<bitset>
-#include<fstream>
+#include<stdio.h>
+#include<stdlib.h>
+#include<limits.h>
+#include<math.h>
+#include<ctype.h>
 #include<string.h>
-#include <stdio.h>
-#include<cstring>
-#include<utility>
 using namespace std;
 int mainte5() {
-	int n;
-	cin >> n;
-	double area = 0;
-	vector<pair<double,double>>check(n);
-	for (int i = 0; i < n; i++) {
-		cin >> check[i].first >> check[i].second;
-	}
-	if (check[0].first < check[n - 1].first) {
-		area -= 0.5 * (check[0].first * check[n - 1].second - check[n - 1].first * check[0].second);
-	}
-	else {
-		area += 0.5 * (check[0].first * check[n - 1].second - check[n - 1].first * check[0].second);
-	}
-	for (int i = 0; i < n-1; i++) {
-		if (check[i].first < check[i + 1].first) {
-			area -= 0.5 * double(check[i].first * check[i + 1].second - check[i + 1].first * check[i].second);
+	int n, s,k;
+	const int mod = 1000000007;
+	scanf_s("%d", &k);
+	for (int i = 0; i < k; i++) {
+		scanf_s("%d", &n);
+		fflush(stdin);
+		scanf_s("%d", &s);
+		int in4[10000];
+		int in7[10000];
+		int sum = 0;
+		int check[11] = { 1,0,0,0,0,0,0,0,0,0,0 };
+		in4[0] = 0;
+		in7[0] = 1;
+		for (int i = 1; i < n; i++) {
+			for (int j = s; j > 0; j--) {
+				check[j] = check[j - 1] % mod;
+			}
+			in7[i] = (in7[i - 1] + in4[i - 1]) % mod;
+			for (int j = 1; j < s; j++) {
+				sum += check[j];
+				sum = sum % mod;
+			}
+			check[0] = in7[i];
+			in4[i] = sum;
+			sum = 0;
 		}
-		else {
-			area += 0.5 * double(check[i].first * check[i + 1].second - check[i + 1].first * check[i].second);
-		}
+		int sum2 = (in4[n - 1] + in7[n - 1]) % mod;
+		printf("%d\n", sum2);
 	}
-	cout << area;
 	return 0;
 }

@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\Downloads\dp.c" />
     <ClCompile Include="759ProblemA.cpp" />
     <ClCompile Include="762ProblemA.cpp" />
     <ClCompile Include="762ProblemB.cpp" />
