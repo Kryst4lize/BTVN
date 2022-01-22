@@ -4,7 +4,6 @@
 #include<math.h>
 #include<ctype.h>
 #include<string.h>
-using namespace std;
 int mainte5() {
 	int n, s,k;
 	const int mod = 1000000007;
