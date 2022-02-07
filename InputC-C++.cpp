@@ -72,16 +72,18 @@ void Multiplication(float a[][100], float b[][100],int m,int n,int p,int q) {
         cout << endl;
     }
 }
-int main() {
-    float a[100][100],b[100][100];
+int maincc() {
+    float a[100][100], b[100][100];
     int n = 0, m = 0, p = 0, q = 0;
     NhapMaTran(a, m, n);
     NhapMaTran(b, p, q);
     Multiplication(a, b, m, n, p, q);
+    return 0;
+}
 #define ll long long
 ll divide=1000000007;
 vector<long long >check(3);
-int CeilIndex(vector<int>& v, int l, int r, int key)
+int CeilIndex(vector<int>&v, int l, int r, int key)
 {
     while (r - l > 1) {
         int m = l + (r - l) / 2;
@@ -90,7 +92,6 @@ int CeilIndex(vector<int>& v, int l, int r, int key)
         else
             l = m;
     }
-
     return r;
 }
 

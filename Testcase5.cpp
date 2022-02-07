@@ -4,6 +4,7 @@
 #include<math.h>
 #include<ctype.h>
 #include<string.h>
+
 int mainte5() {
 	int n, s,k;
 	const int mod = 1000000007;

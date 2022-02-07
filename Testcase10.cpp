@@ -39,9 +39,7 @@ void point(int sum, int a) {
 		if (check == 0 || check == 1) { return; }
 	}
 }
-			
-
-		
+	
 	
 int mainte10() {
 	int s, n, m;
