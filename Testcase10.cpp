@@ -1,17 +1,22 @@
 #include<string>
 #include<sstream>
-#include<iomanip>
 #include<vector>
-#include<iostream>
+#include<list>
+#include<set>
+#include<map>
+#include<queue>
+#include<deque>
 #include<string>
 #include<iomanip>
 #include<cmath>
 #include<iostream>
 #include<algorithm>
 #include<climits>
-#include<sstream>
 #include<bitset>
 #include<fstream>
+#include<chrono>
+#include<functional>
+#include<utility>
 //closest pair geeksforgeek
 using namespace std;
 int summon[100] = { 0 };

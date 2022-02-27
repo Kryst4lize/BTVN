@@ -186,4 +186,12 @@
       <Filter>Header Files\OOP</Filter>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt">
+      <Filter>Source Files\Custom</Filter>
+    </Text>
+    <Text Include="output.txt">
+      <Filter>Source Files\Custom</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
