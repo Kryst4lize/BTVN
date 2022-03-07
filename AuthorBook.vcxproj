@@ -160,7 +160,7 @@
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="Greedy1.cpp" />
     <ClCompile Include="Group.h" />
-    <ClCompile Include="InputC-C++.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Struct.cpp" />
     <ClCompile Include="Lambda.cpp" />
     <ClCompile Include="Map1.cpp" />
@@ -190,7 +190,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
-    <Text Include="output.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

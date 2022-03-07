@@ -174,10 +174,10 @@
     <ClCompile Include="Testcase11.cpp">
       <Filter>Source Files\Custom</Filter>
     </ClCompile>
-    <ClCompile Include="InputC-C++.cpp">
+    <ClCompile Include="Testcase12.cpp">
       <Filter>Source Files\Custom</Filter>
     </ClCompile>
-    <ClCompile Include="Testcase12.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files\Custom</Filter>
     </ClCompile>
   </ItemGroup>
@@ -188,9 +188,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
-      <Filter>Source Files\Custom</Filter>
-    </Text>
-    <Text Include="output.txt">
       <Filter>Source Files\Custom</Filter>
     </Text>
   </ItemGroup>
