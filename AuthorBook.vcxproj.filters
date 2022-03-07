@@ -37,14 +37,17 @@
     <Filter Include="Header Files\Codeforce">
       <UniqueIdentifier>{f772ed3e-f059-4f52-af35-e7682e4c6ce4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Greedy Algorithm">
-      <UniqueIdentifier>{83f0d4d9-addd-4ddd-9f85-a51a4fae2021}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Custom">
       <UniqueIdentifier>{823b0707-9b09-445c-a877-0cbb787a36b8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\OOP2">
       <UniqueIdentifier>{22856bcc-a1d7-49a6-b639-457192854ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sorting Algorithm">
+      <UniqueIdentifier>{f0ff42c2-3e10-4903-b8dc-ae3a46d8d61a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algorithm">
+      <UniqueIdentifier>{83f0d4d9-addd-4ddd-9f85-a51a4fae2021}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -124,7 +127,7 @@
       <Filter>Header Files\Codeforce</Filter>
     </ClCompile>
     <ClCompile Include="Greedy1.cpp">
-      <Filter>Source Files\Greedy Algorithm</Filter>
+      <Filter>Source Files\Algorithm</Filter>
     </ClCompile>
     <ClCompile Include="Testcase1.cpp">
       <Filter>Source Files\Custom</Filter>
@@ -174,10 +177,22 @@
     <ClCompile Include="Testcase11.cpp">
       <Filter>Source Files\Custom</Filter>
     </ClCompile>
-    <ClCompile Include="InputC-C++.cpp">
+    <ClCompile Include="Testcase12.cpp">
       <Filter>Source Files\Custom</Filter>
     </ClCompile>
-    <ClCompile Include="Testcase12.cpp">
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Sorting Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="random.cpp">
+      <Filter>Source Files\Sorting Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="SortingAlgorithm.cpp">
+      <Filter>Source Files\Sorting Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="PrefixSuffix.cpp">
+      <Filter>Source Files\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Testcase13.cpp">
       <Filter>Source Files\Custom</Filter>
     </ClCompile>
   </ItemGroup>
@@ -187,11 +202,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="input.txt">
-      <Filter>Source Files\Custom</Filter>
-    </Text>
-    <Text Include="output.txt">
-      <Filter>Source Files\Custom</Filter>
-    </Text>
+    <ClInclude Include="sort.h">
+      <Filter>Source Files\Sorting Algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

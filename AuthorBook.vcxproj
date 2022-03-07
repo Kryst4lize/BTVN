@@ -160,7 +160,9 @@
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="Greedy1.cpp" />
     <ClCompile Include="Group.h" />
-    <ClCompile Include="InputC-C++.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="random.cpp" />
+    <ClCompile Include="SortingAlgorithm.cpp" />
     <ClCompile Include="Struct.cpp" />
     <ClCompile Include="Lambda.cpp" />
     <ClCompile Include="Map1.cpp" />
@@ -177,6 +179,8 @@
     <ClCompile Include="Testcase10.cpp" />
     <ClCompile Include="Testcase11.cpp" />
     <ClCompile Include="Testcase12.cpp" />
+    <ClCompile Include="PrefixSuffix.cpp" />
+    <ClCompile Include="Testcase13.cpp" />
     <ClCompile Include="Testcase2.cpp" />
     <ClCompile Include="Testcase3.cpp" />
     <ClCompile Include="Testcase4.cpp" />
@@ -189,8 +193,7 @@
     <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="input.txt" />
-    <Text Include="output.txt" />
+    <ClInclude Include="sort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
