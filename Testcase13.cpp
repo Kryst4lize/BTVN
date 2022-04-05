@@ -23,7 +23,7 @@
 #include<sstream>
 #define ll long long 
 using namespace std;
-int main() {
+int mainte13 () {
 	int m, n;
 	cin >> m >> n;
 	vector<int>arr(n + 1);

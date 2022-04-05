@@ -123,8 +123,8 @@ public:
 		return divided;
 	}
 };
-
-class student {
+class student
+ {
 private:
 	string id;
 	string name;
@@ -228,15 +228,17 @@ public:
 		return sum;
 	}
 };
-class candidate {
+class Candidate {
 private:
 	int MSSV;
 	string date;
 	double math;
 	double english;
 	double literature;
+	vector<Candidate>a;
 public:
-	candidate() {}
+	int idx;
+	Candidate() {}
 	int getMSSV() {
 		return MSSV;
 	}
@@ -267,19 +269,37 @@ public:
 	void setDate(string a) {
 		date = a;
 	}
-	void TestCandidate() {
+	void SetCandidate() {
+		cout << "Moi ban nhap so hoc sinh: " << endl;
 		int n;
 		cin >> n;
-		vector<candidate>a(n);
+		idx = n;
+		cout << "Thong tin can nhap: MSSV, ngay sinh, diem toan, diem anh, diem van\n ";
+		a.resize(n);
 		for (int i = 0; i < n; i++) {
-
+			cout << "Nhap thong tin cua hoc sinh co STT " << i + 1 << " theo thu tu tren:\n";
+			cin >> MSSV >> date >> math >> english >> literature;
+			a[i].setMSSV(MSSV);
+			a[i].setDate(date);
+			a[i].setMath(math);
+			a[i].setEnglish(english);
+			a[i].setLiterature(literature);
+			a[i].idx = n;
+		}
+	}
+	void Printing(){
+		for (int i = 0; i < a[0].idx; i++) {
+			if (a[i].getEnglish() + a[i].getLiterature() + a[i].getMath()>15) {
+				cout << "MSSV la " << a[i].getMSSV() << ", ngay sinh la " << a[i].getDate() << ", diem ba mon toan van anh lan luot la :";
+				cout << a[i].getMath() <<", "<< a[i].getLiterature()<<", "<< a[i].getEnglish() << endl;
+			}
 		}
 	}
 };
 int mainte12() {
-	inum a(1, 5);
-	inum b(0, 1);
-	inum c = a / b;
-	c.print();
+	vector<Candidate>arr;
+	Candidate a;
+	a.SetCandidate();
+	a.Printing();
 	return 0;
 }

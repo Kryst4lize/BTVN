@@ -49,6 +49,9 @@
     <Filter Include="Source Files\Algorithm">
       <UniqueIdentifier>{83f0d4d9-addd-4ddd-9f85-a51a4fae2021}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Custom\BTVN">
+      <UniqueIdentifier>{051d84fe-e846-4a5c-aea0-0edf99837c47}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="People.h">
@@ -104,9 +107,6 @@
     </ClCompile>
     <ClCompile Include="Bitset2.cpp">
       <Filter>Source Files\Bitset</Filter>
-    </ClCompile>
-    <ClCompile Include="FileHandling%28C++ standard%29.cpp">
-      <Filter>Source Files\File handling</Filter>
     </ClCompile>
     <ClCompile Include="File2.cpp">
       <Filter>Source Files\File handling</Filter>
@@ -195,6 +195,30 @@
     <ClCompile Include="Testcase13.cpp">
       <Filter>Source Files\Custom</Filter>
     </ClCompile>
+    <ClCompile Include="Testcase14.cpp">
+      <Filter>Source Files\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="Testcase15.cpp">
+      <Filter>Source Files\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="Testcase16.cpp">
+      <Filter>Source Files\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai2.cpp">
+      <Filter>Source Files\Custom\BTVN</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHandling%28C++ standard%29.cpp">
+      <Filter>Source Files\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai5.cpp">
+      <Filter>Source Files\Custom\BTVN</Filter>
+    </ClCompile>
+    <ClCompile Include="testing.cpp">
+      <Filter>Source Files\Custom\BTVN</Filter>
+    </ClCompile>
+    <ClCompile Include="Week2.cpp">
+      <Filter>Source Files\Custom\BTVN</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd">
@@ -202,8 +226,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bai2.h">
+      <Filter>Source Files\Custom\BTVN</Filter>
+    </ClInclude>
     <ClInclude Include="sort.h">
-      <Filter>Source Files\Sorting Algorithm</Filter>
+      <Filter>Source Files\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="Bai5.h">
+      <Filter>Source Files\Custom\BTVN</Filter>
+    </ClInclude>
+    <ClInclude Include="Week2.h">
+      <Filter>Source Files\Custom\BTVN</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
