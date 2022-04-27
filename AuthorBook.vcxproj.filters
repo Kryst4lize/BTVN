@@ -31,9 +31,6 @@
     <Filter Include="Source Files\File handling">
       <UniqueIdentifier>{b916fda6-6394-4454-acc3-57e105b934b8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Exception">
-      <UniqueIdentifier>{fd31d33d-11b5-4920-abc8-bbb2c91b825a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Codeforce">
       <UniqueIdentifier>{f772ed3e-f059-4f52-af35-e7682e4c6ce4}</UniqueIdentifier>
     </Filter>
@@ -51,6 +48,9 @@
     </Filter>
     <Filter Include="Source Files\Custom\BTVN">
       <UniqueIdentifier>{051d84fe-e846-4a5c-aea0-0edf99837c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exception">
+      <UniqueIdentifier>{fd31d33d-11b5-4920-abc8-bbb2c91b825a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -180,7 +180,7 @@
     <ClCompile Include="Testcase12.cpp">
       <Filter>Source Files\Custom</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="main1.cpp">
       <Filter>Source Files\Sorting Algorithm</Filter>
     </ClCompile>
     <ClCompile Include="random.cpp">
@@ -201,23 +201,20 @@
     <ClCompile Include="Testcase15.cpp">
       <Filter>Source Files\Custom</Filter>
     </ClCompile>
-    <ClCompile Include="Testcase16.cpp">
-      <Filter>Source Files\Custom</Filter>
+    <ClCompile Include="LinkList.cpp">
+      <Filter>Source Files\Algorithm</Filter>
     </ClCompile>
-    <ClCompile Include="Bai2.cpp">
-      <Filter>Source Files\Custom\BTVN</Filter>
+    <ClCompile Include="PostfixExpression.cpp">
+      <Filter>Source Files\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Testcase17.cpp">
+      <Filter>Source Files\Custom</Filter>
     </ClCompile>
     <ClCompile Include="FileHandling%28C++ standard%29.cpp">
-      <Filter>Source Files\Custom</Filter>
+      <Filter>Source Files\File handling</Filter>
     </ClCompile>
-    <ClCompile Include="Bai5.cpp">
-      <Filter>Source Files\Custom\BTVN</Filter>
-    </ClCompile>
-    <ClCompile Include="testing.cpp">
-      <Filter>Source Files\Custom\BTVN</Filter>
-    </ClCompile>
-    <ClCompile Include="Week2.cpp">
-      <Filter>Source Files\Custom\BTVN</Filter>
+    <ClCompile Include="ArraySuffix.cpp">
+      <Filter>Source Files\Algorithm</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -226,17 +223,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Bai2.h">
-      <Filter>Source Files\Custom\BTVN</Filter>
-    </ClInclude>
     <ClInclude Include="sort.h">
-      <Filter>Source Files\Custom</Filter>
-    </ClInclude>
-    <ClInclude Include="Bai5.h">
-      <Filter>Source Files\Custom\BTVN</Filter>
-    </ClInclude>
-    <ClInclude Include="Week2.h">
-      <Filter>Source Files\Custom\BTVN</Filter>
+      <Filter>Source Files\Sorting Algorithm</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

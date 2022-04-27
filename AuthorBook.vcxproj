@@ -144,8 +144,6 @@
     <ClCompile Include="762ProblemA.cpp" />
     <ClCompile Include="762ProblemB.cpp" />
     <ClCompile Include="Adult.h" />
-    <ClCompile Include="Bai2.cpp" />
-    <ClCompile Include="Bai5.cpp" />
     <ClCompile Include="BinarySearchTree.cpp" />
     <ClCompile Include="Bitset1.cpp" />
     <ClCompile Include="Bitset2.cpp" />
@@ -162,7 +160,7 @@
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="Greedy1.cpp" />
     <ClCompile Include="Group.h" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="main1.cpp" />
     <ClCompile Include="random.cpp" />
     <ClCompile Include="SortingAlgorithm.cpp" />
     <ClCompile Include="Testcase15.cpp" />
@@ -185,7 +183,9 @@
     <ClCompile Include="PrefixSuffix.cpp" />
     <ClCompile Include="Testcase13.cpp" />
     <ClCompile Include="Testcase14.cpp" />
-    <ClCompile Include="Testcase16.cpp" />
+    <ClCompile Include="ArraySuffix.cpp" />
+    <ClCompile Include="PostfixExpression.cpp" />
+    <ClCompile Include="Testcase17.cpp" />
     <ClCompile Include="Testcase2.cpp" />
     <ClCompile Include="Testcase3.cpp" />
     <ClCompile Include="Testcase4.cpp" />
@@ -193,17 +193,13 @@
     <ClCompile Include="Testcase7.cpp" />
     <ClCompile Include="Testcase8.cpp" />
     <ClCompile Include="Testcase9.cpp" />
-    <ClCompile Include="testing.cpp" />
-    <ClCompile Include="Week2.cpp" />
+    <ClCompile Include="LinkList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Bai2.h" />
-    <ClInclude Include="Bai5.h" />
     <ClInclude Include="sort.h" />
-    <ClInclude Include="Week2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
