@@ -1,4 +1,5 @@
 #pragma once
+// implement int main in the end of this file (in comment file)
 #include<vector>
 #include<iostream>
 #include<sstream>
@@ -105,3 +106,12 @@ public:
 //bai 8
 void Checking2(string link);
 bool compareS(string a, string b); //extra function for Checking2
+/*
+#include"Bai2.h"
+#include"Bai5.h"
+#include"Week2.h"
+#include <algorithm>
+#include<map>
+int main() {
+	Checking2("output.txt");
+}*/

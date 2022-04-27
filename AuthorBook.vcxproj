@@ -162,7 +162,7 @@
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="Greedy1.cpp" />
     <ClCompile Include="Group.h" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="main1.cpp" />
     <ClCompile Include="random.cpp" />
     <ClCompile Include="SortingAlgorithm.cpp" />
     <ClCompile Include="Testcase15.cpp" />
@@ -185,7 +185,9 @@
     <ClCompile Include="PrefixSuffix.cpp" />
     <ClCompile Include="Testcase13.cpp" />
     <ClCompile Include="Testcase14.cpp" />
-    <ClCompile Include="Testcase16.cpp" />
+    <ClCompile Include="ArraySuffix.cpp" />
+    <ClCompile Include="PostfixExpression.cpp" />
+    <ClCompile Include="Testcase17.cpp" />
     <ClCompile Include="Testcase2.cpp" />
     <ClCompile Include="Testcase3.cpp" />
     <ClCompile Include="Testcase4.cpp" />
@@ -193,7 +195,7 @@
     <ClCompile Include="Testcase7.cpp" />
     <ClCompile Include="Testcase8.cpp" />
     <ClCompile Include="Testcase9.cpp" />
-    <ClCompile Include="testing.cpp" />
+    <ClCompile Include="LinkList.cpp" />
     <ClCompile Include="Week2.cpp" />
   </ItemGroup>
   <ItemGroup>
