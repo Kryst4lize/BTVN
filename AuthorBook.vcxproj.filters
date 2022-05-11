@@ -226,5 +226,8 @@
     <ClInclude Include="sort.h">
       <Filter>Source Files\Sorting Algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="sort.h">
+      <Filter>Source Files\Sorting Algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
