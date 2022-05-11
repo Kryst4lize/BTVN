@@ -6,17 +6,17 @@ class Person {
 private:
 	string name;
 	int age;
-	string add;
+	string _insert;
 	vector<Book> vb;
 public:
 	Person(){}
 	virtual ~Person() {}
-	Person(string name,int age,string add,vector<Book>vb):name(name),age(age),add(add),vb(vb){}
+	Person(string name,int age,string _insert,vector<Book>vb):name(name),age(age),_insert(_insert),vb(vb){}
 	string getName() {
 		return name;
 	}
 	string getAdd() {
-		return add;
+		return _insert;
 	}
 	int getAge() {
 		return age;
@@ -28,7 +28,7 @@ public:
 	virtual void display() {
 		cout << "Name: " << name << endl;
 		cout << "Age: " << age << endl;
-		cout << "Add: " << add << endl;
+		cout << "Add: " << _insert << endl;
 		cout << "List Book Borrowed:" << endl;
 		for (int i = 0; i < vb.size(); i++){
 			vb[i].display();

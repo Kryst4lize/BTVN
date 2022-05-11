@@ -216,6 +216,9 @@
     <ClCompile Include="ArraySuffix.cpp">
       <Filter>Source Files\Algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="redblackTree.cpp">
+      <Filter>Source Files\Custom\BTVN</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd">
@@ -223,6 +226,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="sort.h">
+      <Filter>Source Files\Sorting Algorithm</Filter>
+    </ClInclude>
     <ClInclude Include="sort.h">
       <Filter>Source Files\Sorting Algorithm</Filter>
     </ClInclude>

@@ -5,15 +5,15 @@ class Family{
 private:
 	string nameF;
 	string status;
-	string add;
+	string _insert;
 	vector<People> p;
 public:
 	Family() {
 		nameF = p[0].getName();
 	}
-	Family(string status, string add, vector<People> p):nameF(p[0].getName()) {
+	Family(string status, string _insert, vector<People> p):nameF(p[0].getName()) {
 		this->status = status;
-		this->add = add;
+		this->_insert = _insert;
 		this->p = p;
 		nameF = p[0].getName();
 	}
@@ -24,7 +24,7 @@ public:
 		return status;
 	}
 	string getAdd() {
-		return add;
+		return _insert;
 	}
 	vector<People> getP() {
 		return p;
@@ -32,7 +32,7 @@ public:
 	void display(){
 		cout << "householder's name: " << nameF << endl;
 		cout << "Number Member: " << p.size() << endl;
-		cout << "Address: " << add << endl;
+		cout << "Address: " << _insert << endl;
 		cout << "Status: " << status << endl;
 		cout << "List Information Member" << endl;
 		for (int i = 0; i < p.size(); i++){

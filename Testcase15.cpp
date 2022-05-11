@@ -23,7 +23,7 @@ public:
 
 };
 int define::a = 0;
-void search(string pat, string txt, int q)
+void _search(string pat, string txt, int q)
 {
     int M = pat.length();
     int N = txt.length();
@@ -74,6 +74,6 @@ int mainte15()
     char txt[] = "GEEKS FOR GEEKS";
     char pat[] = "GEEK";
     int q = 101;
-    search(pat, txt, q);
+    _search(pat, txt, q);
     return 0;
 }

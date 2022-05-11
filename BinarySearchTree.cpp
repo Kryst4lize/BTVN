@@ -31,40 +31,40 @@ BST::BST()
 }
 
 // Parameterized Constructor definition.
-BST::BST(int value)
+BST::BST(int data)
 {
-    data = value;
+    data = data;
     left = right = NULL;
 }
 
 // Insert function definition.
-BST* BST::Insert(BST* root, int value)
+BST* BST::Insert(BST* root, int data)
 {
     if (!root)
     {
         // Insert the first node, if root is NULL.
-        return new BST(value);
+        return new BST(data);
     }
 
     // Insert data.
-    if (value == root->data) {
+    if (data == root->data) {
         return root;
     }
-    if (value > root->data)
+    if (data > root->data)
     {
         // Insert right node data, if the 'value'
         // to be inserted is greater than 'root' node data.
 
         // Process right nodes.
-        root->right = Insert(root->right, value);
+        root->right = Insert(root->right, data);
     }
-    if (value < root->data) 
+    if (data < root->data) 
     {
         // Insert left node data, if the 'value'
         // to be inserted is greater than 'root' node data.
 
         // Process left nodes.
-        root->left = Insert(root->left, value);
+        root->left = Insert(root->left, data);
     }
 
     // Return 'root' node, after insertion.
