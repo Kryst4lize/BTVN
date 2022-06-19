@@ -219,6 +219,9 @@
     <ClCompile Include="redblackTree.cpp">
       <Filter>Source Files\Custom\BTVN</Filter>
     </ClCompile>
+    <ClCompile Include="BTVN.cpp">
+      <Filter>Source Files\Custom\BTVN</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd">

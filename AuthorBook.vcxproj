@@ -148,6 +148,7 @@
     <ClCompile Include="Bitset1.cpp" />
     <ClCompile Include="Bitset2.cpp" />
     <ClCompile Include="Book.h" />
+    <ClCompile Include="BTVN.cpp" />
     <ClCompile Include="CF18ProblemC.cpp" />
     <ClCompile Include="Children.h" />
     <ClCompile Include="dp.c" />
