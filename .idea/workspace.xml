@@ -10,7 +10,9 @@
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated />
+    <generated>
+      <config projectName="BaitapC" targetName="BaitapC" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -18,121 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93ad1aa0-397f-4fe7-a18e-59f2a63f781a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/136EduProblemA.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/759ProblemA.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/762ProblemA.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/762ProblemB.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai1.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai2.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchTree.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bitset1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bitset2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CF18ProblemC.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Children.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDiagram.cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cmatrix.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cmatrix.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dmm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exception1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Family.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Family.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/File2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/File3.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/File3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileHandling(C++ standard).cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Greedy1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/InputC-C++.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inputdata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lambda.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkList.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Map1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Map2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Map3.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maxtrix.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Adult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Bai1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Bai1.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Bai2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Bai2.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Book.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Children.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Cmatrix.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Cmatrix.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Dmm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Family.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Family.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/File2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/File3.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/File3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Group.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/People.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/People.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Person.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/SortingAlgorithm.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/main1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/sort.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/tc1-file-ntb2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/tc1-file-ntb3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/tc1-file-tag.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/People.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/People.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Person.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostfixExpression.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrefixSuffix.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RottenOrange.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortingAlgorithm.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Struct.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcase.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcase1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcase10.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcase11.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcase12.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcase13.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcase14.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcase15.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcase17.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcase2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcase3.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcase4.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcase5.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcase7.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcase8.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcase9.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-10-16T17-32-50-0253.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/filename.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstNegative.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maxRevenue.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redblackTree.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/removelement.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rotOrange.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tc1-file-ntb2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tc1-file-ntb3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tc1-file-tag.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="93ad1aa0-397f-4fe7-a18e-59f2a63f781a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -266,7 +154,7 @@
       <workItem from="1665941562590" duration="1304000" />
       <workItem from="1665942898555" duration="1717000" />
       <workItem from="1665944642788" duration="426000" />
-      <workItem from="1665945082513" duration="400000" />
+      <workItem from="1665945082513" duration="813000" />
     </task>
     <task id="LOCAL-00001" summary="17/10/2022">
       <created>1665941698382</created>
@@ -303,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665944951162</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="17/10/2022">
+      <created>1665945506958</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665945506958</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
