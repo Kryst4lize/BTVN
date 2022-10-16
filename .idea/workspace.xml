@@ -20,7 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93ad1aa0-397f-4fe7-a18e-59f2a63f781a" name="Changes" comment="" />
+    <list default="true" id="93ad1aa0-397f-4fe7-a18e-59f2a63f781a" name="Changes" comment="17/10/2022" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,7 +154,7 @@
       <workItem from="1665941562590" duration="1304000" />
       <workItem from="1665942898555" duration="1717000" />
       <workItem from="1665944642788" duration="426000" />
-      <workItem from="1665945082513" duration="813000" />
+      <workItem from="1665945082513" duration="1179000" />
     </task>
     <task id="LOCAL-00001" summary="17/10/2022">
       <created>1665941698382</created>
@@ -198,7 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665945506958</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="17/10/2022">
+      <created>1665945954124</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665945954124</updated>
+    </task>
+    <task id="LOCAL-00008" summary="17/10/2022">
+      <created>1665946144160</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665946144161</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
