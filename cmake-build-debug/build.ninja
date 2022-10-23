@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/Administrator/OneDrive$ -$ mintcash/Desktop/Minh
 
 build cmake_object_order_depends_target_BaitapC: phony || CMakeFiles/BaitapC.dir
 
-build CMakeFiles/BaitapC.dir/827ProblemA.cpp.obj: CXX_COMPILER__BaitapC_Debug C$:/Users/Administrator/OneDrive$ -$ mintcash/Desktop/Minh/BaitapC/827ProblemA.cpp || cmake_object_order_depends_target_BaitapC
-  DEP_FILE = CMakeFiles\BaitapC.dir\827ProblemA.cpp.obj.d
+build CMakeFiles/BaitapC.dir/ICPCcentralI.cpp.obj: CXX_COMPILER__BaitapC_Debug C$:/Users/Administrator/OneDrive$ -$ mintcash/Desktop/Minh/BaitapC/ICPCcentralI.cpp || cmake_object_order_depends_target_BaitapC
+  DEP_FILE = CMakeFiles\BaitapC.dir\ICPCcentralI.cpp.obj.d
   FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles\BaitapC.dir
   OBJECT_FILE_DIR = CMakeFiles\BaitapC.dir
@@ -63,7 +63,7 @@ build CMakeFiles/BaitapC.dir/827ProblemA.cpp.obj: CXX_COMPILER__BaitapC_Debug C$
 #############################################
 # Link the executable BaitapC.exe
 
-build BaitapC.exe: CXX_EXECUTABLE_LINKER__BaitapC_Debug CMakeFiles/BaitapC.dir/827ProblemA.cpp.obj
+build BaitapC.exe: CXX_EXECUTABLE_LINKER__BaitapC_Debug CMakeFiles/BaitapC.dir/ICPCcentralI.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\BaitapC.dir
