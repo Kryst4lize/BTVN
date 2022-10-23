@@ -3,4 +3,4 @@ project(BaitapC)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(BaitapC 827ProblemA.cpp)
+add_executable(BaitapC ICPCcentralI.cpp)
