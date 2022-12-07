@@ -12,14 +12,12 @@ void swap (int *a,int *b){
     *a=*b;
     *b=temp;
 }
-
 int min(int a,int b){
     return (a>b)?b:a;
 }
 int max(int a,int b){
     return (a<b)?b:a;
 }
-
 typedef struct P {
     int pn,arr, bur,star, finish, tat, wt,res;
 } process;
@@ -61,7 +59,6 @@ void main() {
                 store++;
             }
         }
-
         // check next process in query
         for (int i = 0; i < n; i++) {
             if (p[i].res == 0) { continue; }
@@ -91,16 +88,19 @@ void main() {
                     curres = min(curres, p[k].res);
                 }
             }
+            /*
             printf("current min RT is %d and current process take CPU is %d\n", curres, curindex + 1);
             printf("PName Arrtime Bursttime Start TAT Finish Waittime RT currenttime\n");
             printf("%5d%8d%10d%6d%4d%7d%9d%3d%12d\n\n", p[curindex].pn, p[curindex].arr, p[curindex].bur,
                    p[curindex].star,
                    p[curindex].tat, p[curindex].finish, p[curindex].wt, p[curindex].res, curarr);
-            for (int j = 1; curindex + j < n; j++) {
+                   */
+            for (int j = 0; curindex + j < n; j++) {
                 if (p[curindex + j].res == 0 && curindex + j != n - 1) { continue; }
+
                 if (curindex + j == n - 1 && store == 1) {
-                    printf("Last process %d in that the end (finish time is %d)\n", curindex + 1,
-                           curarr + p[curindex].res);
+                    /*printf("Last process %d in that the end (finish time is %d)\n", curindex + 1,
+                           curarr + p[curindex].res);*/
                     p[curindex].star = (p[curindex].arr == 0) ? 0 : (p[curindex].star == 0) ? curarr : p[curindex].star;
                     p[curindex].wt = p[curindex].wt + (p[curindex].finish == 0) ? curarr - p[curindex].arr : curarr -
                                                                                                              p[curindex].finish;
@@ -110,18 +110,18 @@ void main() {
                     curarr = p[curindex].finish;
                     break;
                 }
-                if (p[curindex].res - (p[curindex + j].arr - curarr) > p[curindex + j].res) {
-                    printf("Transition process from %d to %d\n", curindex + 1, curindex + j + 1);
+                //TODO :FIx later
+                if (p[curindex].res - (p[curindex + j].arr - curarr) > p[curindex + j].res && p[curindex+j].res!=0 && j!=0) {
+                    //printf("Transition process from %d to %d\n", curindex + 1, curindex + j + 1);
                     p[curindex].star = ((p[curindex].star == 0) ? p[curindex].arr : p[curindex].star);
                     p[curindex].res -= (p[curindex + j].arr - curarr);
-                    // DO: already cover latency process
                     p[curindex].wt =
                             p[curindex].wt + (p[curindex].finish == 0) ? (curarr == 0) ? 0 : curarr -
                                                                                              p[curindex].arr
                                                                        : curarr - p[curindex].finish;
                     p[curindex].finish = p[curindex + j].arr;
                     p[curindex].tat = p[curindex].finish - p[curindex].arr;
-                    curarr = p[curindex].finish;
+                    curarr = (curarr>p[curindex].finish)?curarr:p[curindex].finish;
                     store++;
                     curres = p[curindex].res;
                     break;
@@ -130,9 +130,9 @@ void main() {
                 {
 
                     if (p[curindex].res < p[curindex + j].arr - curarr) {
-                        printf("End process %d in between process %d's arrival   (finishtime is %d)\n", curindex + 1,
-                               curindex + j + 1, curarr + p[curindex].res);
-                        p[curindex].star = (p[curindex].arr >= curarr) ? p[curindex].arr : (p[curindex].star == 0)
+                        /*printf("End process %d in between process %d's arrival   (finishtime is %d)\n", curindex + 1,
+                               curindex + j + 1, curarr + p[curindex].res);*/
+                        p[curindex].star = (p[curindex].arr >= curarr) ? p[curindex].arr : (p[curindex].star == 0 && p[curindex].finish==0)
                                                                                            ? curarr
                                                                                            : p[curindex].star;
                         p[curindex].wt =
@@ -145,14 +145,14 @@ void main() {
                         p[curindex].tat = p[curindex].finish - p[curindex].arr;
                         break;
                     } else if (curindex + j == n - 1) {
-                        printf("End process %d in that the end (finish time is %d)\n", curindex + 1,
-                               curarr + p[curindex].res);
+                        //printf("End process %d in that the end (finish time is %d)\n", curindex + 1,
+                        //       curarr + p[curindex].res);
                         p[curindex].star = (p[curindex].arr == 0) ? 0 : (p[curindex].star == 0) ? curarr
                                                                                                 : p[curindex].star;
-                        p[curindex].wt = p[curindex].wt + (p[curindex].finish != 0) ? curarr -
-                                                                     p[curindex].finish : (curarr < p[curindex].arr)
-                                                                                          ? curarr :
-                                                                                          curarr - p[curindex].arr;
+                        p[curindex].wt += p[curindex].wt + (p[curindex].finish != 0) ? (curarr -
+                                                                                        p[curindex].finish) : (curarr < p[curindex].arr)
+                                                                                                              ? curarr :
+                                                                                                              curarr - p[curindex].arr;
                         p[curindex].finish = curarr + p[curindex].res;
                         p[curindex].res = 0;
                         p[curindex].tat = p[curindex].finish - p[curindex].arr;
@@ -161,13 +161,13 @@ void main() {
                     }
                 }
             }
+            /*
             printf("PName Arrtime Bursttime Start TAT Finish Waittime RT currenttime\n");
             printf("%5d%8d%10d%6d%4d%7d%9d%3d%12d\n\n", p[curindex].pn, p[curindex].arr, p[curindex].bur,
                    p[curindex].star,
                    p[curindex].tat, p[curindex].finish, p[curindex].wt, p[curindex].res, curarr);
+            */
         }
-        // check if process is done but the upcoming process isn't come
-
     }
     // reverse the order like in table
     for (int i = 0; i < n; i++) {
