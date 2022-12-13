@@ -20,21 +20,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93ad1aa0-397f-4fe7-a18e-59f2a63f781a" name="Changes" comment="29/11/2022">
-      <change afterPath="$PROJECT_DIR$/srt.c" afterDir="false" />
+    <list default="true" id="93ad1aa0-397f-4fe7-a18e-59f2a63f781a" name="Changes" comment="7/12/2022">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-62c9441b6f327908bdfe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-8be7e068ededf70b874a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-10-23T02-00-41-0057.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-11-28T15-31-52-0378.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-BaitapC-Debug-069443e53eb2b9a8564a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-BaitapC-Debug-b4c88c3bd967d314fb6d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BaitapC.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BaitapC.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stf.c" beforeDir="false" afterPath="$PROJECT_DIR$/stf.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +106,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-20.04/home/lethanhminh0801/lab4&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-20.04/home/lethanhminh0801&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -136,11 +124,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BaitapC" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaitapC" TARGET_NAME="BaitapC" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BaitapC" RUN_TARGET_NAME="BaitapC">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -177,7 +160,9 @@
       <workItem from="1669649510945" duration="11350000" />
       <workItem from="1669696427196" duration="39402000" />
       <workItem from="1669959970517" duration="3000" />
-      <workItem from="1670399468018" duration="2000" />
+      <workItem from="1670399468018" duration="94000" />
+      <workItem from="1670399573828" duration="12000" />
+      <workItem from="1670953892701" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="17/10/2022">
       <created>1665941698382</created>
@@ -270,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669656023979</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="7/12/2022">
+      <created>1670399516863</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670399516863</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +306,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="17/10/2022" />
     <MESSAGE value="29/11/2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="29/11/2022" />
+    <MESSAGE value="7/12/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="7/12/2022" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
