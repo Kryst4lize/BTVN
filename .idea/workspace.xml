@@ -10,7 +10,9 @@
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated />
+    <generated>
+      <config projectName="BaitapC" targetName="BaitapC" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -18,7 +20,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93ad1aa0-397f-4fe7-a18e-59f2a63f781a" name="Changes" comment="" />
+    <list default="true" id="93ad1aa0-397f-4fe7-a18e-59f2a63f781a" name="Changes" comment="7/12/2022">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,9 +80,6 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/main.cpp" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="jih93xly" />
   </component>
@@ -104,7 +106,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/OneDrive - mintcash/Desktop/Minh/BaitapC&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-20.04/home/lethanhminh0801&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -122,7 +124,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="BaitapC" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaitapC" TARGET_NAME="BaitapC" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BaitapC" RUN_TARGET_NAME="BaitapC">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -149,7 +151,18 @@
       <workItem from="1665674354454" duration="8057000" />
       <workItem from="1665941562590" duration="1304000" />
       <workItem from="1665942898555" duration="1717000" />
-      <workItem from="1665944642788" duration="301000" />
+      <workItem from="1665944642788" duration="426000" />
+      <workItem from="1665945082513" duration="2225000" />
+      <workItem from="1666489306130" duration="6707000" />
+      <workItem from="1667000547706" duration="38000" />
+      <workItem from="1669513046197" duration="1180000" />
+      <workItem from="1669611580331" duration="1597000" />
+      <workItem from="1669649510945" duration="11350000" />
+      <workItem from="1669696427196" duration="39402000" />
+      <workItem from="1669959970517" duration="3000" />
+      <workItem from="1670399468018" duration="94000" />
+      <workItem from="1670399573828" duration="12000" />
+      <workItem from="1670953892701" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="17/10/2022">
       <created>1665941698382</created>
@@ -179,11 +192,93 @@
       <option name="project" value="LOCAL" />
       <updated>1665944939705</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="17/10/2022">
+      <created>1665944951162</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665944951162</updated>
+    </task>
+    <task id="LOCAL-00006" summary="17/10/2022">
+      <created>1665945506958</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665945506958</updated>
+    </task>
+    <task id="LOCAL-00007" summary="17/10/2022">
+      <created>1665945954124</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665945954124</updated>
+    </task>
+    <task id="LOCAL-00008" summary="17/10/2022">
+      <created>1665946144160</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665946144161</updated>
+    </task>
+    <task id="LOCAL-00009" summary="17/10/2022">
+      <created>1665946484251</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665946484251</updated>
+    </task>
+    <task id="LOCAL-00010" summary="17/10/2022">
+      <created>1666561892370</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666561892370</updated>
+    </task>
+    <task id="LOCAL-00011" summary="17/10/2022">
+      <created>1666574178989</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666574178989</updated>
+    </task>
+    <task id="LOCAL-00012" summary="17/10/2022">
+      <created>1669656010135</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669656010135</updated>
+    </task>
+    <task id="LOCAL-00013" summary="29/11/2022">
+      <created>1669656023979</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669656023979</updated>
+    </task>
+    <task id="LOCAL-00014" summary="7/12/2022">
+      <created>1670399516863</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670399516863</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -210,7 +305,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="17/10/2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="17/10/2022" />
+    <MESSAGE value="29/11/2022" />
+    <MESSAGE value="7/12/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="7/12/2022" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
