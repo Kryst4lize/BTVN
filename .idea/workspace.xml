@@ -20,15 +20,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93ad1aa0-397f-4fe7-a18e-59f2a63f781a" name="Changes" comment="21/12/2022">
+    <list default="true" id="93ad1aa0-397f-4fe7-a18e-59f2a63f781a" name="Changes" comment="28/12/2022">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BaitapC.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BaitapC.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +52,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -176,7 +170,7 @@
       <workItem from="1670953892701" duration="520000" />
       <workItem from="1671014809514" duration="2485000" />
       <workItem from="1671605113124" duration="7189000" />
-      <workItem from="1672156376251" duration="9096000" />
+      <workItem from="1672156376251" duration="9867000" />
     </task>
     <task id="LOCAL-00001" summary="17/10/2022">
       <created>1665941698382</created>
@@ -290,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671605125051</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="28/12/2022">
+      <created>1672168118211</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1672168118211</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +338,8 @@
     <MESSAGE value="7/12/2022" />
     <MESSAGE value="14/12/2022" />
     <MESSAGE value="21/12/2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="21/12/2022" />
+    <MESSAGE value="28/12/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="28/12/2022" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
