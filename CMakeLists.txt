@@ -3,4 +3,4 @@ project(BaitapC)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(BaitapC srt.c)
+add_executable(BaitapC Codeforce/pageswapping.cpp)

@@ -49,11 +49,11 @@ cmake_ninja_workdir = C$:/Users/Administrator/OneDrive$ -$ mintcash/Desktop/Minh
 
 build cmake_object_order_depends_target_BaitapC: phony || CMakeFiles/BaitapC.dir
 
-build CMakeFiles/BaitapC.dir/srt.c.obj: C_COMPILER__BaitapC_Debug C$:/Users/Administrator/OneDrive$ -$ mintcash/Desktop/Minh/BaitapC/srt.c || cmake_object_order_depends_target_BaitapC
-  DEP_FILE = CMakeFiles\BaitapC.dir\srt.c.obj.d
-  FLAGS = -g
+build CMakeFiles/BaitapC.dir/Codeforce/pageswapping.cpp.obj: CXX_COMPILER__BaitapC_Debug C$:/Users/Administrator/OneDrive$ -$ mintcash/Desktop/Minh/BaitapC/Codeforce/pageswapping.cpp || cmake_object_order_depends_target_BaitapC
+  DEP_FILE = CMakeFiles\BaitapC.dir\Codeforce\pageswapping.cpp.obj.d
+  FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles\BaitapC.dir
-  OBJECT_FILE_DIR = CMakeFiles\BaitapC.dir
+  OBJECT_FILE_DIR = CMakeFiles\BaitapC.dir\Codeforce
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/BaitapC.dir/srt.c.obj: C_COMPILER__BaitapC_Debug C$:/Users/Admi
 #############################################
 # Link the executable BaitapC.exe
 
-build BaitapC.exe: C_EXECUTABLE_LINKER__BaitapC_Debug CMakeFiles/BaitapC.dir/srt.c.obj
+build BaitapC.exe: CXX_EXECUTABLE_LINKER__BaitapC_Debug CMakeFiles/BaitapC.dir/Codeforce/pageswapping.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\BaitapC.dir
