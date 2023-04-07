@@ -1,6 +1,4 @@
 # ninja log v5
-0	144	6921026700752376	build.ninja	fcf069b1e4ba4040
-2	78	6915385615713817	CMakeFiles/BaitapC.dir/stf.c.obj	fd289949e5ca1f87
-73	151	6915400365201001	BaitapC.exe	83f11ac5a6683e8d
-14	1637	6913153307382141	CMakeFiles/BaitapC.dir/ICPCcentralI.cpp.obj	f4e0ed5c0697facd
-1	72	6915400364465789	CMakeFiles/BaitapC.dir/srt.c.obj	96aab28f705f2d1a
+7	373	7025654733099057	build.ninja	60f9dc802e4a253c
+573	685	7015993335205696	BaitapC.exe	c265ad1aeb152f56
+3	573	7015993334110448	CMakeFiles/BaitapC.dir/Codeforce/tuan.cpp.obj	1828604f56158aca
